@@ -28,7 +28,7 @@ bool solution(vector<int> arr, int n)
         // 합이 더 작을 경우, 앞인덱스를 한칸 뒤으로 전진
         else
         {
-            startIndex -= 1;
+            startIndex += 1;
         }
     }
     return false;
