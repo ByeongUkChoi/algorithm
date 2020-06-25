@@ -1,7 +1,5 @@
 package stack;
 
-import java.util.ArrayList;
-
 /**
  * 배열로 스택 구현
  */
