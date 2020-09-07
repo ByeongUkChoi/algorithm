@@ -9,7 +9,7 @@ public class Main {
         int n = Integer.parseInt(input[0]);
         int k = Integer.parseInt(input[1]);
 
-        int min = n - k < n ? n - k : n;
+        int min = n - k < k ? n - k : k;
         int result = (int)(multipleDecreasing(n, min) / fact(min));
         System.out.println(result);
     }
