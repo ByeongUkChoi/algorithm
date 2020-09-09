@@ -12,3 +12,5 @@ main 파일을 만들어 소스를 넣는다.
 BOJ/2557_Hello World/java/Main.java  
 
 BOJ/2557_Hello World/go/main.go  
+
+[문제풀이 스트리밍 유튜브 영상 재생목록](https://www.youtube.com/watch?v=k25_2ExhYfs&list=PLkgj-h1OBMYqWrxeQ2LOzpnRSIOlJDP_V&ab_channel=%EC%B5%9C%EB%B3%91%EC%9A%B1)
