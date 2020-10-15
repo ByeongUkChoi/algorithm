@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
@@ -13,10 +12,8 @@ func main() {
 	var result [3]int
 
 	for i, timer := range timers {
-		for timer <= t{
-			t -= timer
-			result[i]++
-		}
+        result[i] = t / timer
+        t %= timer
 	}
 
 	if t > 0 {
@@ -24,7 +21,7 @@ func main() {
 		return
 	}
 
-	r := strings.Trim(strings.Join(strings.Fields(fmt.Sprint(result)), " "), "[]")
-	fmt.Print(r)
+    for _, v := range result {
+        fmt.Print(v, " ")
+    }
 }
-
