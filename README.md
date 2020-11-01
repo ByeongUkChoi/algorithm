@@ -2,7 +2,7 @@
 
 ### 재귀
 <details markdown="1">
-<summary>문제</summary>
+<summary>문제풀이</summary>
 
 [[백준] 10872번 팩토리얼](https://unhosted.tistory.com/46)
 </details>
