@@ -5,10 +5,16 @@
 <summary>문제풀이</summary>
 
 [[백준] 10872번 팩토리얼](https://unhosted.tistory.com/46)  
-[[백준] 10870번 피보나치 수 5](https://unhosted.tistory.com/48)
+[[백준] 10870번 피보나치 수 5](https://unhosted.tistory.com/48)  
+[[백준] 10870번 피보나치 수 5](https://unhosted.tistory.com/48)  
 </details>
 
 ### 브루트 포스(brute force)
+<details markdown="1">
+<summary>문제풀이</summary>
+
+[[백준] 2798번 블랙잭](https://unhosted.tistory.com/52)  
+</details>
 ### 탐욕(greedy) 
 
 -------------
