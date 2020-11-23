@@ -15,6 +15,7 @@
 
 [[백준] 2798번 블랙잭](https://unhosted.tistory.com/52)  
 </details>
+
 ### 탐욕(greedy) 
 
 -------------
