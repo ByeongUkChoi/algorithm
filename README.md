@@ -17,6 +17,11 @@
 </details>
 
 ### 탐욕(greedy) 
+<details markdown="1">
+<summary>문제풀이</summary>
+
+[[백준] 11047번 동전 0](https://unhosted.tistory.com/53)  
+</details>
 
 -------------
 
