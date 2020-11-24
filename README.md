@@ -21,6 +21,7 @@
 <summary>문제풀이</summary>
 
 [[백준] 11047번 동전 0](https://unhosted.tistory.com/53)  
+[[백준] 1931번 회의실배정](https://unhosted.tistory.com/54)  
 </details>
 
 -------------
