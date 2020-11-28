@@ -28,6 +28,7 @@ func main() {
 			result -= tmp;
 		}
 		tmp = 0
+		// 맨 처음 -가 나온 시점. 이후 들어오는 값은 모두 뺀다
 		if plusOperator == true && s == '-' {
 			plusOperator = false
 		}
