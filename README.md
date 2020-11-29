@@ -14,6 +14,7 @@
 <summary>문제풀이</summary>
 
 [[백준] 2798번 블랙잭](https://unhosted.tistory.com/52)  
+[[백준] 2231번 분해합](https://unhosted.tistory.com/58)  
 </details>
 
 ### 탐욕(greedy) 
