@@ -15,6 +15,7 @@
 
 [[백준] 2798번 블랙잭](https://unhosted.tistory.com/52)  
 [[백준] 2231번 분해합](https://unhosted.tistory.com/58)  
+[[백준] 7568번 덩치](https://unhosted.tistory.com/62)  
 </details>
 
 ### 탐욕(greedy) 
