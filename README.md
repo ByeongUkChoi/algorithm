@@ -1,5 +1,12 @@
 # INDEX
 
+### 수학
+<details markdown="1">
+<summary>문제풀이</summary>
+
+[[백준] 1712번 손익분기점](https://unhosted.tistory.com/63)  
+</details>
+
 ### 재귀
 <details markdown="1">
 <summary>문제풀이</summary>
