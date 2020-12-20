@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -20,19 +21,23 @@ public class Main {
         /**
          * dp[0] = p[0] = 0
          * dp[1] = p[1]     // 카드 한 장 구매 (최대)가격
-         * dp[2] = max(dp[1] + p[1], dp[0])
-         * dp[3] = max(dp[2] + p[1], dp[1] + p[2], dp[0] + p[3])
+         * dp[2] = max(p[2], dp[1] + dp[1])
+         * dp[3] = max(p[3], dp[2] + dp[1])
+         * dp[4] = max(p[4], dp[3] + dp[1], dp[2] + dp[2])
+         * dp[4] = max(p[5], dp[4] + dp[1], dp[3] + dp[2])
          * ...
-         * dp[n] = max(dp[n-1] + p[1],,,dp[0] + p[n])       // n : 카드 개수
+         * dp[n] = max(p[n], dp[n-1] + dp[1],,,dp[0] + dp[n])       // n : 카드 개수
          */
         for (int i = 1; i <= n; i++) {
+            // 초기 값
+            dp[i] = p[i];
             // dp[n-1] + p[1],,,dp[0] + p[n] 중 최대값 찾기
-            for (int j = i - 1; j >= 0; j--) {
-                dp[i] = Math.max(dp[j] + p[i - j], dp[i]);
+            for (int j = i - 1; j >= i / 2; j--) {
+                dp[i] = Math.max(dp[j] + dp[i - j], dp[i]);
             }
         }
-        
-        System.out.println(dp[n]);
+
+        System.out.println(Arrays.toString(dp));
     }
 }
 
