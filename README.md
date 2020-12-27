@@ -7,6 +7,13 @@
 [[백준] 1712번 손익분기점](https://unhosted.tistory.com/63)  
 </details>
 
+### 다이나믹 프로그래밍
+<details markdown="1">
+<summary>문제풀이</summary>
+
+[[백준] 11055번 가장 큰 증가 부분 수열](https://unhosted.tistory.com/73)  
+</details>
+
 ### 재귀
 <details markdown="1">
 <summary>문제풀이</summary>
