@@ -6,10 +6,10 @@ public class Main {
         int n = scanner.nextInt();
         int k = scanner.nextInt();
 
-        long result = solution(n, k);
+        int result = solution(n, k);
         System.out.println(result);
     }
-    public static long solution(int n, int k) {
+    public static int solution(int n, int k) {
         int[][] dp = new int[n+1][k+1];
 
         for (int i = 1; i <= n; i++) {
