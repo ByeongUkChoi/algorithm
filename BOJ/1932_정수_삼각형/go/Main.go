@@ -23,12 +23,11 @@ func main() {
 			paths[i] = append(paths[i], element)
 		}
 	}
-	max := 0
 	for i := 1; i < count; i++ {
 		for j := 0; j <= i; j++ {
-			if j == 0 {				// 맨 왼쪽
+			if j == 0 { // 맨 왼쪽
 				paths[i][j] += paths[i-1][j]
-			} else if j == i {		// 맨 오른쪽
+			} else if j == i { // 맨 오른쪽
 				paths[i][j] += paths[i-1][i-1]
 			} else {
 				if paths[i-1][j-1] > paths[i-1][j] {
@@ -37,11 +36,13 @@ func main() {
 					paths[i][j] += paths[i-1][j]
 				}
 			}
-			if i + 1 == count {
-				if paths[i][j] > max {
-					max = paths[i][j]
-				}
-			}
+		}
+	}
+
+	max := 0
+	for i := 0; i < count; i++ {
+		if max < paths[count-1][i] {
+			max = paths[count-1][i]
 		}
 	}
 	fmt.Print(max)
